@@ -7,11 +7,11 @@
       
 + **We can see 3 open ports with some well known services: ftp, ssh and http, all opened on default ports**
 
-![Alt text](images/nmap_scan.jpg?raw=true "Title")
+![Alt text](images/nmap_scan.jpg?raw=true "Nmap_scan")
 
 + **Next, we will try to connect to the ftp service using the default user anonymous**
 
-![Alt text](images/ftp_login.jpg?raw=true "Title")
+![Alt text](images/ftp_login.jpg?raw=true "Ftp_login")
 
 + **Listing the directory, we can observe two .txt files uploaded so let's get them**
 
@@ -41,6 +41,9 @@ R3dDRaG0Nsynd1c@T3
 ``hydra -l lin -P locks.txt 10.10.229.13 -t 4 ssh``
 
 
++ **After we execute the brute-force process, Hydra give us the needed password
+
+# ![Alt text](images/hydra_brute.jpg?raw=true "Hydra")
 
 
 
