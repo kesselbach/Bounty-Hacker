@@ -1,5 +1,5 @@
-# 'Bounty Hacker' writeup
-# ![Alt text](images/9ad38a2cc31d6ae0030c888aca7fe646.jpeg?raw=true "Title")
+# 'Bounty Hacker' box writeup
+# ![bg](images/background.jpeg?raw=true "Title")
 + **We deploy the machine and start with an nmap scan for open ports**
 
 
@@ -7,11 +7,11 @@
       
 + **We can see 3 open ports with some well known services: ftp, ssh and http, all opened on default ports**
 
-![Alt text](images/nmap_scan.jpg?raw=true "Nmap_scan")
+![1](images/nmap_scan.jpg?raw=true "Nmap_scan")
 
 + **Next, we will try to connect to the ftp service using the default user anonymous**
 
-![Alt text](images/ftp_login.jpg?raw=true "Ftp_login")
+![2](images/ftp_login.jpg?raw=true "Ftp_login")
 
 + **Listing the directory, we can observe two .txt files uploaded so let's get them**
 
@@ -43,7 +43,7 @@ R3dDRaG0Nsynd1c@T3
 
 + **After we execute the brute-force process, Hydra give us the needed user password**
 
-# ![Alt text](images/hydra_brute.jpg?raw=true "Hydra")
+# ![3](images/hydra_brute.jpg?raw=true "Hydra")
 
 + **With the given credentials, we will connect to the ssh service**
 
@@ -51,16 +51,16 @@ R3dDRaG0Nsynd1c@T3
 
 + **We land on the wanted system so we can read our first user flag**
 
-# ![Alt text](images/first_flag.jpg?raw=true "first_flag")
+# ![4](images/first_flag.jpg?raw=true "first_flag")
 
 + **Running the** ``sudo -l`` **command on @lin user and listing the allowed commands, we can see that user @lin may run the following commands on bountyhacker:**
       ``(root) /bin/tar``
   
-# ![Alt text](images/whoami.jpg?raw=true "whoami")
+# ![5](images/whoami.jpg?raw=true "whoami")
 
 + **Tar is a linux utilitary, used by a lot of unix system administrators to create compressed archive files or to extract them. Looking into the tar manual, we can see that it has an option that can execute a command during the compress-program**
 
-# ![Alt text](images/tar.jpg?raw=true "tar manual")
+# ![6](images/tar.jpg?raw=true "tar manual")
 
 + **That being said, let's try to break our environment and spawn a shell for a privilege escalation, getting access to the @root user**
 
