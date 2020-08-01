@@ -9,11 +9,11 @@
 
 ![Alt text](images/nmap_scan.jpg?raw=true "Title")
 
-+ **Next, we will try to connect to the ftp service using the default user anonymous
++ **Next, we will try to connect to the ftp service using the default user anonymous**
 
 ![Alt text](images/ftp_login.jpg?raw=true "Title")
 
-+ **Listing the directory, we can observe two .txt files uploaded so let's get them
++ **Listing the directory, we can observe two .txt files uploaded so let's get them**
 
 
 
