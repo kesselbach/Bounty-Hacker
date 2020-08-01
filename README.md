@@ -3,7 +3,7 @@
 + **We deploy the machine and start with an nmap scan for open ports**
 
 
-      ``nmap -sV -sC -oN scan1 10.10.229.13``
+``nmap -sV -sC -oN scan1 10.10.229.13``
       
 + **We can see 3 open ports with some well known services: ftp, ssh and http, all opened on default ports**
 
