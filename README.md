@@ -1,6 +1,6 @@
 # 'Bounty Hacker' box writeup
-## Bounty Hacker is a CTF box available on the [TryHackMe platform](https://tryhackme.com), written by Sevuhl
-## Read about [Tar in Linux](https://www.freecodecamp.org/news/tar-in-linux-example-tar-gz-tar-file-and-tar-directory-and-tar-compress-commands/) and [Breaking restricted environment with tar](https://gtfobins.github.io/gtfobins/tar/)
+## Bounty Hacker is a CTF box written by Sevuhl and available on the [TryHackMe platform](https://tryhackme.com).
+## Read about [Tar in Linux](https://www.freecodecamp.org/news/tar-in-linux-example-tar-gz-tar-file-and-tar-directory-and-tar-compress-commands/) and [Breaking restricted environment with tar](https://gtfobins.github.io/gtfobins/tar/).
 # ![bg](images/background.jpg?raw=true "Title")
 + **We deploy the machine and start with an nmap scan for open ports**
 
