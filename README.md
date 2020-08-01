@@ -22,16 +22,27 @@
 + **Reading the task.txt file, we can find out who wrote the task list, giving us the first task answer. We list the second txt file, named locks.txt, and we can see multiple strings which seems to be some passwords kept in the ftp server.**
 
 ``rEddrAGON
+
 ReDdr4g0nSynd!cat3
+
 Dr@gOn$yn9icat3
+
 R3DDr46ONSYndIC@Te
+
 ReddRA60N
+
 R3dDrag0nSynd1c4te
+
 dRa6oN5YNDiCATE
+
 ReDDR4g0n5ynDIc4te
+
 R3Dr4gOn2044
+
 RedDr4gonSynd1cat3
+
 R3dDRaG0Nsynd1c@T3
+
 ...``
 
 
