@@ -69,5 +69,6 @@ R3dDRaG0Nsynd1c@T3
 # ![Alt text](images/root_flag.jpg?raw=true "root_flag")
 
 + **We got our root flag and finished the box. It was an easy box but a good one for the beginners, focusing on simple utilitary and default linux apps which can escalate to the sys admin and also the idea of unconfigured credentials on services - like ftp**
+**Many thanks to Sevuhl, the creator of this box**
 
         
