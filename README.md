@@ -1,5 +1,5 @@
 # 'Bounty Hacker' box writeup
-# ![bg](images/background.jpeg?raw=true "Title")
+# ![bg](images/background.jpg?raw=true "Title")
 + **We deploy the machine and start with an nmap scan for open ports**
 
 
