@@ -53,7 +53,7 @@ R3dDRaG0Nsynd1c@T3
 
 # ![Alt text](images/first_flag.jpg?raw=true "first_flag")
 
-+ **Running the ``sudo -l`` command on @lin user and listing the allowed commands, we can see that user @lin may run the following commands on bountyhacker:**
++ **Running the** ``sudo -l`` **command on @lin user and listing the allowed commands, we can see that user @lin may run the following commands on bountyhacker:**
       ``(root) /bin/tar``
   
 # ![Alt text](images/whoami.jpg?raw=true "whoami")
