@@ -58,6 +58,10 @@ R3dDRaG0Nsynd1c@T3
   
 # ![Alt text](images/whoami.jpg?raw=true "whoami")
 
++ **Tar is a linux utilitary, used by a lot of unix system administrators to create compressed archive files or to extract them. Looking into the tar manual, we can see that it has an option that can execute a command during the compress-program**
+
+# ![Alt text](images/tar.jpg?raw=true "tar manual")
+
 
 
 
