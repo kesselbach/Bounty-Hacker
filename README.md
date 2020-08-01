@@ -7,4 +7,6 @@
       
 + **We can see 3 open ports with some well known services: ftp, ssh and http, all opened on default ports**
 
+![Alt text](images/nmap_scan.jpeg?raw=true "Title")
+
         
