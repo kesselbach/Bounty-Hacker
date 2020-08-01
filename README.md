@@ -19,7 +19,7 @@
 
 ``mget *.txt``
 
-+ **Reading the task.txt file, we can find out who wrote the task list, giving us the first task answer. We list the second txt file, named locks.txt, and we can see multiple strings which seems to be some passwords kept in the ftp server.**
++ **Reading the task.txt file, we can find out who wrote the task list, giving us the first task answer. We list the second txt file, named locks.txt, and we can see multiple strings which seems to be some passwords kept in the ftp server**
 
 ```
 rEddrAGON
@@ -35,6 +35,8 @@ RedDr4gonSynd1cat3
 R3dDRaG0Nsynd1c@T3
 ...
 ```
+
++ **Let's try to use this password file to connect on the ssh service, using simultanously the user found in the previous task**
 
 
 
