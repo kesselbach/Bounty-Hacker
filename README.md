@@ -62,7 +62,12 @@ R3dDRaG0Nsynd1c@T3
 
 # ![Alt text](images/tar.jpg?raw=true "tar manual")
 
++ **That being said, let's try to break our environment and spawn a shell for a privilege escalation, getting access to the @root user**
 
+``sudo tar xf /dev/null -I '/bin/sh -c "sh <&2 1>&2"'``
 
+# ![Alt text](images/root_flag.jpg?raw=true "root_flag")
+
++ **We got our root flag and finished the box. It was an easy box but a good one for the beginners, focusing on simple utilitary and default linux apps which can escalate to the sys admin and also the idea of unconfigured credentials on services - like ftp**
 
         
