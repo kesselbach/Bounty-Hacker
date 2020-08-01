@@ -19,6 +19,8 @@
 
 ``mget *.txt``
 
++ **Reading the task.txt file, we can find out who wrote the task list, giving us the first task answer**
+
 
 
         
